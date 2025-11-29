@@ -1,0 +1,2 @@
+1. импортировать math, fmt 
+2. Создать функции main, outputUser,getUserData, calculateIMT
