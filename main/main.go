@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"myapp/birdwatcher"
 	"myapp/cards"
+	"myapp/lasagnamaster"
 	"strings"
 )
 
@@ -26,5 +27,9 @@ func main() {
 	fmt.Println(strings.Repeat("=", 15))
 	fmt.Println(birdwatcher.BirdsInWeek([]int{1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5, 6, 7}, 2))
 	fmt.Println(strings.Repeat("=", 15))
-	fmt.Println(birdwatcher.FixBirdCountLog([]int{0,1,2,3,4,5}))
-}
+	fmt.Println(birdwatcher.FixBirdCountLog([]int{0, 1, 2, 3, 4, 5}))
+	fmt.Println(lasagnamaster.PreparationTime([]string{"sauce", "noodles", "sauce", "meat", "mozzarella", "noodles"}, 0))
+	fmt.Println(lasagnamaster.Quantities([]string{"sauce", "noodles", "sauce", "meat", "mozzarella", "noodles"}))
+	// fmt.Println(lasagnamaster.AddSecretIngredient([]string{"noodles", "sauce", "mozzarella", "kampot pepper"}, []string{"noodles", "meat", "sauce", "mozzarella", "?"}))
+	fmt.Println(lasagnamaster.ScaleRecipe([]float64{ 1.2, 3.6, 10.5 }, 4))
+}	
