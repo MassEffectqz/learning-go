@@ -7,6 +7,7 @@ func TotalBirdCount(birdsPerDay []int) int {
 	}
 	return value
 }
+
 func BirdsInWeek(birdsPerDay []int, week int) int {
 	startIndex := (week - 1) * 7
 	endIndex := startIndex + 7
