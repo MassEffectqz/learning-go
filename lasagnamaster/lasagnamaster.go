@@ -18,8 +18,8 @@ func Quantities(layers []string) (noodles int, sauce float64) {
 	return noodles, sauce
 }
 func AddSecretIngredient(friendList, myList []string) {
-    secret := friendList[len(friendList)-1]
-    myList[len(myList)-1] = secret
+	secret := friendList[len(friendList)-1]
+	myList[len(myList)-1] = secret
 }
 func ScaleRecipe(quantities []float64, num int) []float64 {
 	scaled := make([]float64, len(quantities))
