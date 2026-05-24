@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"myapp/birdwatcher"
-	"myapp/booking"
-	"myapp/cards"
-	"myapp/lasagnamaster"
+	"myapp/practics/birdwatcher"
+	"myapp/practics/booking"
+	"myapp/practics/cards"
+	"myapp/practics/lasagnamaster"
+	"myapp/practics/luhn"
 	"strings"
 )
 
@@ -36,4 +37,6 @@ func main() {
 	fmt.Println(lasagnamaster.ScaleRecipe([]float64{1.2, 3.6, 10.5}, 4))
 	fmt.Println(strings.Repeat("=", 15))
 	fmt.Println(booking.Schedule("7/25/2019 13:45:00"))
+	fmt.Println(luhn.Valid("059"))
+
 }
