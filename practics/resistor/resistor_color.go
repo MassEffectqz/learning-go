@@ -12,7 +12,6 @@ var colorMap = map[string]int{
 	"grey":   8,
 	"white":  9,
 }
-
 func Colors() []string {
 	return []string{"black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"}
 }
